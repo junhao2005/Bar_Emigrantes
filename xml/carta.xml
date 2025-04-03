@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<films>
+    <!-- Tapas -->
+    <film carta="Tapas">
+      <title>Jamón Ibérico</title>
+      <p precio="Tapas">17,00 € </p>
+    </film>
+    <film carta="Tapas">
+      <title>Queso</title>
+      <p precio="Tapas">8,50 € </p>
+    </film>
+    <film carta="Tapas">
+      <title>Pinchos o cochinillo</title>
+      <p precio="Tapas">8,00 € </p>
+    </film>
+    <film carta="Tapas">
+      <title>Alitas pollo</title>
+      <p precio="Tapas">5,50 € </p>
+    </film>
+    <film carta="Tapas">
+      <title>Morros</title>
+      <p precio="Tapas">5,50 € </p>
+    </film>
+    <film carta="Tapas">
+      <title>Patata bravas</title>
+      <p precio="Tapas">4,50 € </p>
+    </film>
+    <film carta="Tapas">
+      <title>Calamares romana</title>
+      <p precio="Tapas">6,80 € </p>
+    </film>
+    <film carta="Tapas">
+      <title>Chocos</title>
+      <p precio="Tapas">8,50 € </p>
+    </film>
+    <film carta="Tapas">
+      <title>Rejos</title>
+      <p precio="Tapas">7,90 € </p>
+    </film>
+    <film carta="Tapas">
+      <title>Sepia a la plancha</title>
+      <p precio="Tapas">11,90 € </p>
+    </film>
+    <film carta="Tapas">
+      <title>Gambas a la plancha</title>
+      <p precio="Tapas">12,50 € </p>
+    </film>
+    <film carta="Tapas">
+      <title>Anchoas</title>
+      <p precio="Tapas">6,50 € </p>
+    </film>
+    <film carta="Tapas">
+      <title>Berberechos</title>
+      <p precio="Tapas">6,00 € </p>
+    </film>
+    <!-- comida de la casa -->
+    <film carta="Casa">
+      <title>Tallarines</title>
+      <p precio="Casero">6,80 €</p>
+    </film>
+    <film carta="Casa">
+      <title>Gyozas</title>
+      <p precio="Casero">6,80 €</p>
+    </film>
+    <film carta="Casa">
+      <title>Rollito de primavera</title>
+      <p precio="Casero">5,80 €</p>
+    </film>
+    <!-- Bocadillo -->
+     <film carta="Bocadillo">
+      <title>Jamón Ibérico</title>
+      <p precio="Bocadillo">6,50 €</p>
+    </film>
+    <film carta="Bocadillo">
+      <title>Lomo</title>
+      <p precio="Bocadillo">5,50 €</p>
+    </film>
+    <film carta="Bocadillo">
+      <title>JFuet</title>
+      <p precio="Bocadillo">3,50 €</p>
+    </film>
+    <film carta="Bocadillo">
+      <title>Chorizo</title>
+      <p precio="Bocadillo">4,80 €</p>
+    </film>
+</films>

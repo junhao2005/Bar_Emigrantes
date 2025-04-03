@@ -1,0 +1,157 @@
+/* Variables */
+:root {
+    --primary-color: #333;
+    --secondary-color: #444;
+    --text-color: white;
+    --hover-color: #555;
+    --background-color: #f4f4f4;
+    --border-radius: 8px;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+/* Encabezado */
+header {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffcc00; /* Cambia el color del enlace */
+    text-decoration: none; /* Quita el subrayado */
+}
+
+.location {
+    font-size: 18px;
+    opacity: 0.8;
+    color: #ffcc00; /* Cambia el color del enlace */
+    text-decoration: none; /* Quita el subrayado */
+}
+
+/* Navegación */
+nav {
+    position: relative;
+}
+
+.menu {
+    background-color: var(--secondary-color);
+    color: #ffcc00;
+    padding: 12px 15px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.menu:hover {
+    background-color: var(--hover-color);
+}
+
+/* Menú desplegable */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background-color: var(--secondary-color);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 180px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown li {
+    padding: 12px;
+    border-bottom: 1px solid var(--hover-color);
+    transition: background 0.3s ease;
+}
+
+.dropdown li:last-child {
+    border-bottom: none;
+}
+
+.dropdown li a {
+    color: var(--text-color);
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.dropdown li:hover {
+    background-color: var(--hover-color);
+}
+
+.menu:hover + .dropdown,
+.dropdown:hover {
+    display: block;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .logo {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .location {
+        font-size: 16px;
+        margin-bottom: 15px;
+        opacity: 0.9;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        font-size: 18px;
+    }
+
+
+    
+    /* Menú desplegable en móviles */
+    .dropdown {
+        position: static;
+        width: 100%;
+        display: none;
+        text-align: center;
+    }
+
+    .dropdown li {
+        display: block;
+        padding: 12px;
+        border-bottom: 1px solid #555;
+    }
+
+    /* Mostrar el menú al hacer clic en móviles */
+    .menu:hover + .dropdown,
+    .dropdown:hover {
+        display: block;
+    }
+}

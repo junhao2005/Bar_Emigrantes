@@ -20,21 +20,19 @@
     ?> -->
 
     <header>
-        <div><a href="index.php" class="logo">Bar Emigrantes</a></div>
-        <div><a href="https://maps.app.goo.gl/TB6keWK3qxoW5MPS8" class="location">📍Ubicación</a></div>
+        <div class="logo">Bar Emigrantes</div>
+        <div class="location">Ubicación</div>
         <nav>
-            <div class="menu">🍴Carta ▼</div>
+            <div class="menu">Carta ▼</div>
             <ul class="dropdown">
-                <li><a href="carta-completa.php">Carta Completa</a></li>
-                <li><a href="tapas.php">Tapas</a></li>
-                <li><a href="comida-casa.php">Comida de la Casa</a></li>
-                <li><a href="bocadillos.php">Bocadillos</a></li>
+                <li><a href="#">Carta Completa</a></li>
+                <li><a href="#">Tapas</a></li>
+                <li><a href="#">Comida de la Casa</a></li>
+                <li><a href="#">Bocadillos</a></li>
             </ul>
         </nav>
-        <div><a href="galeria.php" class="location">📸Galeria</a></div>
+        <div class="location">Galeria</div>
     </header>
-
-    
 
 
 
