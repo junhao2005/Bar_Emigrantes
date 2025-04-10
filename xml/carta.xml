@@ -53,6 +53,7 @@
       <title>Berberechos</title>
       <p precio="Tapas">6,00 € </p>
     </film>
+
     <!-- comida de la casa -->
     <film carta="Casa">
       <title>Tallarines</title>
@@ -66,21 +67,76 @@
       <title>Rollito de primavera</title>
       <p precio="Casero">5,80 €</p>
     </film>
+
     <!-- Bocadillo -->
-     <film carta="Bocadillo">
+     <film carta="Bocadillo Frío">
       <title>Jamón Ibérico</title>
       <p precio="Bocadillo">6,50 €</p>
     </film>
-    <film carta="Bocadillo">
+    <film carta="Bocadillo Frío">
       <title>Lomo</title>
       <p precio="Bocadillo">5,50 €</p>
     </film>
-    <film carta="Bocadillo">
-      <title>JFuet</title>
+    <film carta="Bocadillo Frío">
+      <title>Fuet</title>
       <p precio="Bocadillo">3,50 €</p>
     </film>
-    <film carta="Bocadillo">
+    <film carta="Bocadillo Frío">
       <title>Chorizo</title>
       <p precio="Bocadillo">4,80 €</p>
     </film>
+    <film carta="Bocadillo Frío">
+      <title>Salchichón</title>
+      <p precio="Bocadillo">4,80 €</p>
+    </film>
+    <film carta="Bocadillo Frío">
+      <title>Queso</title>
+      <p precio="Bocadillo">4,80 €</p>
+    </film>
+    <film carta="Bocadillo Frío">
+      <title>Atún</title>
+      <p precio="Bocadillo">3,50 €</p>
+    </film>
+
+
+    <!-- Bocadillo caliente -->
+    <film carta="Bocadillo Caliente">
+      <title>Tortilla francesa</title>
+      <p precio="Bocadillo">3,30 €</p>
+    </film>
+
+    <film carta="Bocadillo Caliente">
+      <title>Lomo</title>
+      <p precio="Bocadillo">5,00 €</p>
+    </film>
+
+    <film carta="Bocadillo Caliente">
+      <title>Bacon</title>
+      <p precio="Bocadillo">4,80 €</p>
+    </film>
+
+    <film carta="Bocadillo Caliente">
+      <title>Frankfurt</title>
+      <p precio="Bocadillo">3,50 €</p>
+    </film>
+
+    <film carta="Bocadillo Caliente">
+      <title>Calamares</title>
+      <p precio="Bocadillo">5,00 €</p>
+    </film>
+
+    <film carta="Bocadillo Caliente">
+      <title>Pinchos o cochinillo</title>
+      <p precio="Bocadillo">5,50 €</p>
+    </film>
+
+    <film carta="Bocadillo Caliente">
+      <title>Chistorra</title>
+      <p precio="Bocadillo">4,50 €</p>
+    </film>
+
+
+
+  
+    
 </films>
