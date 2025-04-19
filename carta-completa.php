@@ -20,7 +20,7 @@
     ?> -->
 
     <header>
-        <div><a href="index.php" class="logo">Bar Emigrantes</a></div>
+        <div><a href="index.html" class="logo">Bar Emigrantes</a></div>
         <div><a href="https://maps.app.goo.gl/TB6keWK3qxoW5MPS8" class="location">📍Ubicación</a></div>
         <div><a href="carta-completa.php" class="location">🍴Carta</a></div>
         <div><a href="galeria.php" class="location">📸Galeria</a></div>
