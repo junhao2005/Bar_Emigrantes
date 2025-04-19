@@ -41,10 +41,6 @@ header {
     text-decoration: none; /* Quita el subrayado */
 }
 
-/* Navegación */
-nav {
-    position: relative;
-}
 
 .menu {
     background-color: var(--secondary-color);
@@ -53,28 +49,10 @@ nav {
     border-radius: var(--border-radius);
     cursor: pointer;
     transition: background 0.3s ease;
+    text-decoration: none; /* Quita el subrayado */
 }
 
-.menu:hover {
-    background-color: var(--hover-color);
-}
 
-/* Menú desplegable */
-.dropdown {
-    display: none;
-    position: absolute;
-    top: 45px;
-    right: 0;
-    background-color: var(--secondary-color);
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 180px;
-    border-radius: var(--border-radius);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-}
 
 .dropdown li {
     padding: 12px;
@@ -136,6 +114,11 @@ nav {
     border-radius: 20px;
 }
 
+.img_bar {
+    width: 100%;
+    height: auto;
+}
+
 
 
 
@@ -174,13 +157,13 @@ nav {
 
 .filtro-select:focus {
     outline: none;
-    border-color: #007bff;
+    border-color: #c0630b8a;
     box-shadow: 0 0 0 3px rgba(0,123,255,0.2);
 }
 
 .filtro-btn {
     padding: 0.6rem 1.2rem;
-    background-color: #007bff;
+    background-color: #c0630b8a;
     color: white;
     border: none;
     border-radius: 8px;
@@ -190,7 +173,7 @@ nav {
 }
 
 .filtro-btn:hover {
-    background-color: #0056b3;
+    background-color: #c0630b8a;
     transform: translateY(-2px);
 }
 
@@ -206,7 +189,7 @@ nav {
 }
 
 .tabla-carta thead th {
-    background-color: #007bff;
+    background-color: #c0630b8a;
     color: white;
     text-align: left;
     padding: 0.75rem 1rem;
@@ -222,7 +205,6 @@ nav {
     background-color: #f1f9ff;
 }
 
-  
   
 
 
@@ -298,9 +280,13 @@ nav {
 .item2_img {
     flex: 1;
     order: 1;
-    width: 100%;
+    width: 50%;
     height: auto;
-    max-width: 70%;
     border-radius: 20px;
+}
+
+.img_bar {
+    width: 200%;
+    height: auto;
 }
 }

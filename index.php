@@ -22,16 +22,7 @@
     <header>
         <div><a href="index.php" class="logo">Bar Emigrantes</a></div>
         <div><a href="https://maps.app.goo.gl/TB6keWK3qxoW5MPS8" class="location">📍Ubicación</a></div>
-        <nav>
-            <div class="menu">🍴Carta ▼</div>
-            <ul class="dropdown">
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="carta-completa.php">Carta Completa</a></li>
-                <li><a href="tapas.php">Tapas</a></li>
-                <li><a href="comida-casa.php">Comida de la Casa</a></li>
-                <li><a href="bocadillos.php">Bocadillos</a></li>
-            </ul>
-        </nav>
+        <div><a href="carta-completa.php" class="location">🍴Carta</a></div>
         <div><a href="galeria.php" class="location">📸Galeria</a></div>
     </header>
     
@@ -64,7 +55,7 @@
         </div>
 
         <div class="item2_img">
-            <img src="img/baremi.jpeg" alt="bar">
+            <img src="img/baremi.jpeg" alt="bar" class="img_bar">
         </div>
     </div>
 
